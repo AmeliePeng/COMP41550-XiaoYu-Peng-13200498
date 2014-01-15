@@ -13,32 +13,31 @@
                         <viewControllerLayoutGuide type="bottom" id="yJI-rA-fQA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello UCD!" lineBreakMode="characterWrap" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u54-5V-tB4" userLabel="HelloUCD">
-                                <rect key="frame" x="59" y="58" width="202" height="49"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello UCD!" textAlignment="center" lineBreakMode="characterWrap" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u54-5V-tB4" userLabel="HelloUCD">
+                                <rect key="frame" x="62" y="49" width="202" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ucdlogo" translatesAutoresizingMaskIntoConstraints="NO" id="IH7-PZ-4Hn">
-                                <rect key="frame" x="59" y="157" width="202" height="285"/>
+                                <rect key="frame" x="65" y="137" width="196" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.99310881987887112" green="1" blue="0.21642724548386139" alpha="0.19" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.95220284570109093" blue="0.011970067239836957" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="0.40000000596046448" alpha="0.48999999999999999" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="IH7-PZ-4Hn" secondAttribute="centerX" id="C7l-Kj-b7X"/>
-                            <constraint firstItem="u54-5V-tB4" firstAttribute="width" secondItem="IH7-PZ-4Hn" secondAttribute="width" id="Err-0r-sdj"/>
-                            <constraint firstAttribute="centerY" secondItem="u54-5V-tB4" secondAttribute="centerY" constant="157.5" id="VSQ-kY-qtp"/>
-                            <constraint firstAttribute="centerY" secondItem="IH7-PZ-4Hn" secondAttribute="centerY" constant="-59.5" id="WE4-Om-Ndn"/>
-                            <constraint firstItem="u54-5V-tB4" firstAttribute="centerY" secondItem="IH7-PZ-4Hn" secondAttribute="centerY" constant="-217" id="YjH-hd-gSA"/>
-                            <constraint firstItem="u54-5V-tB4" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="58" id="lPj-oZ-6wv"/>
-                            <constraint firstItem="IH7-PZ-4Hn" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="157" id="oAL-YC-R9P"/>
-                            <constraint firstAttribute="centerX" secondItem="u54-5V-tB4" secondAttribute="centerX" id="vqy-j1-u3d"/>
+                            <constraint firstItem="u54-5V-tB4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="62" id="97c-42-rMe"/>
+                            <constraint firstItem="u54-5V-tB4" firstAttribute="width" secondItem="IH7-PZ-4Hn" secondAttribute="width" constant="6" id="EHN-Be-ZUf"/>
+                            <constraint firstItem="u54-5V-tB4" firstAttribute="height" secondItem="IH7-PZ-4Hn" secondAttribute="height" constant="-236" id="GYl-xy-Wck"/>
+                            <constraint firstItem="u54-5V-tB4" firstAttribute="top" secondItem="SXa-VG-jcn" secondAttribute="bottom" constant="29" id="o1U-vW-S6n"/>
+                            <constraint firstItem="u54-5V-tB4" firstAttribute="centerY" secondItem="IH7-PZ-4Hn" secondAttribute="centerY" constant="-206" id="uCb-mi-rVh"/>
+                            <constraint firstItem="u54-5V-tB4" firstAttribute="centerX" secondItem="IH7-PZ-4Hn" secondAttribute="centerX" id="vqn-8M-mFi"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -52,6 +51,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
 </document>
