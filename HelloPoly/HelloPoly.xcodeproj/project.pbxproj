@@ -7,164 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAB90897188312D500E6FE0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB90896188312D500E6FE0E /* Foundation.framework */; };
-		AAB90899188312D500E6FE0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB90898188312D500E6FE0E /* CoreGraphics.framework */; };
-		AAB9089B188312D500E6FE0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB9089A188312D500E6FE0E /* UIKit.framework */; };
-		AAB908A1188312D500E6FE0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB9089F188312D500E6FE0E /* InfoPlist.strings */; };
-		AAB908A3188312D500E6FE0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB908A2188312D500E6FE0E /* main.m */; };
-		AAB908A7188312D500E6FE0E /* HelloPolyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB908A6188312D500E6FE0E /* HelloPolyAppDelegate.m */; };
-		AAB908AA188312D500E6FE0E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB908A8188312D500E6FE0E /* Main_iPhone.storyboard */; };
-		AAB908AD188312D500E6FE0E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB908AB188312D500E6FE0E /* Main_iPad.storyboard */; };
-		AAB908B0188312D500E6FE0E /* HelloPolyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB908AF188312D500E6FE0E /* HelloPolyViewController.m */; };
-		AAB908B2188312D500E6FE0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB908B1188312D500E6FE0E /* Images.xcassets */; };
-		AAB908B9188312D500E6FE0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB908B8188312D500E6FE0E /* XCTest.framework */; };
-		AAB908BA188312D500E6FE0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB90896188312D500E6FE0E /* Foundation.framework */; };
-		AAB908BB188312D500E6FE0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB9089A188312D500E6FE0E /* UIKit.framework */; };
-		AAB908C3188312D600E6FE0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB908C1188312D600E6FE0E /* InfoPlist.strings */; };
-		AAB908C5188312D600E6FE0E /* HelloPolyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB908C4188312D600E6FE0E /* HelloPolyTests.m */; };
+		AA597E511896866500914451 /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = AA597E501896866500914451 /* PolygonShape.m */; };
+		AABE13A518912708002FC838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE13A418912708002FC838 /* Foundation.framework */; };
+		AABE13A718912708002FC838 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE13A618912708002FC838 /* CoreGraphics.framework */; };
+		AABE13A918912708002FC838 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE13A818912708002FC838 /* UIKit.framework */; };
+		AABE13AF18912708002FC838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AABE13AD18912708002FC838 /* InfoPlist.strings */; };
+		AABE13B118912708002FC838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE13B018912708002FC838 /* main.m */; };
+		AABE13B518912708002FC838 /* HelloPolyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE13B418912708002FC838 /* HelloPolyAppDelegate.m */; };
+		AABE13B818912708002FC838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABE13B618912708002FC838 /* Main.storyboard */; };
+		AABE13BB18912708002FC838 /* HelloPolyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE13BA18912708002FC838 /* HelloPolyViewController.m */; };
+		AABE13BD18912708002FC838 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABE13BC18912708002FC838 /* Images.xcassets */; };
+		AABE13C418912708002FC838 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE13C318912708002FC838 /* XCTest.framework */; };
+		AABE13C518912708002FC838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE13A418912708002FC838 /* Foundation.framework */; };
+		AABE13C618912708002FC838 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE13A818912708002FC838 /* UIKit.framework */; };
+		AABE13CE18912708002FC838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AABE13CC18912708002FC838 /* InfoPlist.strings */; };
+		AABE13D018912708002FC838 /* HelloPolyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE13CF18912708002FC838 /* HelloPolyTests.m */; };
+		AAC522F61897F27000277152 /* PolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC522F51897F27000277152 /* PolygonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AAB908BC188312D500E6FE0E /* PBXContainerItemProxy */ = {
+		AABE13C718912708002FC838 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AAB9088B188312D500E6FE0E /* Project object */;
+			containerPortal = AABE139918912708002FC838 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AAB90892188312D500E6FE0E;
+			remoteGlobalIDString = AABE13A018912708002FC838;
 			remoteInfo = HelloPoly;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AAB90893188312D500E6FE0E /* HelloPoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPoly.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAB90896188312D500E6FE0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AAB90898188312D500E6FE0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AAB9089A188312D500E6FE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		AAB9089E188312D500E6FE0E /* HelloPoly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPoly-Info.plist"; sourceTree = "<group>"; };
-		AAB908A0188312D500E6FE0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AAB908A2188312D500E6FE0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AAB908A4188312D500E6FE0E /* HelloPoly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloPoly-Prefix.pch"; sourceTree = "<group>"; };
-		AAB908A5188312D500E6FE0E /* HelloPolyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPolyAppDelegate.h; sourceTree = "<group>"; };
-		AAB908A6188312D500E6FE0E /* HelloPolyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPolyAppDelegate.m; sourceTree = "<group>"; };
-		AAB908A9188312D500E6FE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		AAB908AC188312D500E6FE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		AAB908AE188312D500E6FE0E /* HelloPolyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPolyViewController.h; sourceTree = "<group>"; };
-		AAB908AF188312D500E6FE0E /* HelloPolyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPolyViewController.m; sourceTree = "<group>"; };
-		AAB908B1188312D500E6FE0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AAB908B7188312D500E6FE0E /* HelloPolyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPolyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAB908B8188312D500E6FE0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AAB908C0188312D600E6FE0E /* HelloPolyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPolyTests-Info.plist"; sourceTree = "<group>"; };
-		AAB908C2188312D600E6FE0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AAB908C4188312D600E6FE0E /* HelloPolyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPolyTests.m; sourceTree = "<group>"; };
+		AA597E4F1896866500914451 /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolygonShape.h; path = "../../../../COMP41550/homework/assignment2/PolygonShape 2/PolygonShape.h"; sourceTree = "<group>"; };
+		AA597E501896866500914451 /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PolygonShape.m; path = "../../../../COMP41550/homework/assignment2/PolygonShape 2/PolygonShape.m"; sourceTree = "<group>"; };
+		AABE13A118912708002FC838 /* HelloPoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPoly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABE13A418912708002FC838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AABE13A618912708002FC838 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AABE13A818912708002FC838 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AABE13AC18912708002FC838 /* HelloPoly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPoly-Info.plist"; sourceTree = "<group>"; };
+		AABE13AE18912708002FC838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AABE13B018912708002FC838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AABE13B218912708002FC838 /* HelloPoly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloPoly-Prefix.pch"; sourceTree = "<group>"; };
+		AABE13B318912708002FC838 /* HelloPolyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPolyAppDelegate.h; sourceTree = "<group>"; };
+		AABE13B418912708002FC838 /* HelloPolyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPolyAppDelegate.m; sourceTree = "<group>"; };
+		AABE13B718912708002FC838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AABE13B918912708002FC838 /* HelloPolyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPolyViewController.h; sourceTree = "<group>"; };
+		AABE13BA18912708002FC838 /* HelloPolyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPolyViewController.m; sourceTree = "<group>"; };
+		AABE13BC18912708002FC838 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AABE13C218912708002FC838 /* HelloPolyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPolyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABE13C318912708002FC838 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AABE13CB18912708002FC838 /* HelloPolyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPolyTests-Info.plist"; sourceTree = "<group>"; };
+		AABE13CD18912708002FC838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AABE13CF18912708002FC838 /* HelloPolyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPolyTests.m; sourceTree = "<group>"; };
+		AAC522F41897F27000277152 /* PolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonView.h; sourceTree = "<group>"; };
+		AAC522F51897F27000277152 /* PolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AAB90890188312D500E6FE0E /* Frameworks */ = {
+		AABE139E18912708002FC838 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB90899188312D500E6FE0E /* CoreGraphics.framework in Frameworks */,
-				AAB9089B188312D500E6FE0E /* UIKit.framework in Frameworks */,
-				AAB90897188312D500E6FE0E /* Foundation.framework in Frameworks */,
+				AABE13A718912708002FC838 /* CoreGraphics.framework in Frameworks */,
+				AABE13A918912708002FC838 /* UIKit.framework in Frameworks */,
+				AABE13A518912708002FC838 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAB908B4188312D500E6FE0E /* Frameworks */ = {
+		AABE13BF18912708002FC838 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB908B9188312D500E6FE0E /* XCTest.framework in Frameworks */,
-				AAB908BB188312D500E6FE0E /* UIKit.framework in Frameworks */,
-				AAB908BA188312D500E6FE0E /* Foundation.framework in Frameworks */,
+				AABE13C418912708002FC838 /* XCTest.framework in Frameworks */,
+				AABE13C618912708002FC838 /* UIKit.framework in Frameworks */,
+				AABE13C518912708002FC838 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AAB9088A188312D500E6FE0E = {
+		AABE139818912708002FC838 = {
 			isa = PBXGroup;
 			children = (
-				AAB9089C188312D500E6FE0E /* HelloPoly */,
-				AAB908BE188312D500E6FE0E /* HelloPolyTests */,
-				AAB90895188312D500E6FE0E /* Frameworks */,
-				AAB90894188312D500E6FE0E /* Products */,
+				AABE13AA18912708002FC838 /* HelloPoly */,
+				AABE13C918912708002FC838 /* HelloPolyTests */,
+				AABE13A318912708002FC838 /* Frameworks */,
+				AABE13A218912708002FC838 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AAB90894188312D500E6FE0E /* Products */ = {
+		AABE13A218912708002FC838 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAB90893188312D500E6FE0E /* HelloPoly.app */,
-				AAB908B7188312D500E6FE0E /* HelloPolyTests.xctest */,
+				AABE13A118912708002FC838 /* HelloPoly.app */,
+				AABE13C218912708002FC838 /* HelloPolyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAB90895188312D500E6FE0E /* Frameworks */ = {
+		AABE13A318912708002FC838 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AAB90896188312D500E6FE0E /* Foundation.framework */,
-				AAB90898188312D500E6FE0E /* CoreGraphics.framework */,
-				AAB9089A188312D500E6FE0E /* UIKit.framework */,
-				AAB908B8188312D500E6FE0E /* XCTest.framework */,
+				AABE13A418912708002FC838 /* Foundation.framework */,
+				AABE13A618912708002FC838 /* CoreGraphics.framework */,
+				AABE13A818912708002FC838 /* UIKit.framework */,
+				AABE13C318912708002FC838 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AAB9089C188312D500E6FE0E /* HelloPoly */ = {
+		AABE13AA18912708002FC838 /* HelloPoly */ = {
 			isa = PBXGroup;
 			children = (
-				AAB908A5188312D500E6FE0E /* HelloPolyAppDelegate.h */,
-				AAB908A6188312D500E6FE0E /* HelloPolyAppDelegate.m */,
-				AAB908A8188312D500E6FE0E /* Main_iPhone.storyboard */,
-				AAB908AB188312D500E6FE0E /* Main_iPad.storyboard */,
-				AAB908AE188312D500E6FE0E /* HelloPolyViewController.h */,
-				AAB908AF188312D500E6FE0E /* HelloPolyViewController.m */,
-				AAB908B1188312D500E6FE0E /* Images.xcassets */,
-				AAB9089D188312D500E6FE0E /* Supporting Files */,
+				AABE13B618912708002FC838 /* Main.storyboard */,
+				AABE13DC189579D9002FC838 /* HelloPolyMVC */,
+				AABE13BC18912708002FC838 /* Images.xcassets */,
+				AABE13AB18912708002FC838 /* Supporting Files */,
 			);
 			path = HelloPoly;
 			sourceTree = "<group>";
 		};
-		AAB9089D188312D500E6FE0E /* Supporting Files */ = {
+		AABE13AB18912708002FC838 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAB9089E188312D500E6FE0E /* HelloPoly-Info.plist */,
-				AAB9089F188312D500E6FE0E /* InfoPlist.strings */,
-				AAB908A2188312D500E6FE0E /* main.m */,
-				AAB908A4188312D500E6FE0E /* HelloPoly-Prefix.pch */,
+				AABE13B318912708002FC838 /* HelloPolyAppDelegate.h */,
+				AABE13B418912708002FC838 /* HelloPolyAppDelegate.m */,
+				AABE13AC18912708002FC838 /* HelloPoly-Info.plist */,
+				AABE13AD18912708002FC838 /* InfoPlist.strings */,
+				AABE13B018912708002FC838 /* main.m */,
+				AABE13B218912708002FC838 /* HelloPoly-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AAB908BE188312D500E6FE0E /* HelloPolyTests */ = {
+		AABE13C918912708002FC838 /* HelloPolyTests */ = {
 			isa = PBXGroup;
 			children = (
-				AAB908C4188312D600E6FE0E /* HelloPolyTests.m */,
-				AAB908BF188312D600E6FE0E /* Supporting Files */,
+				AABE13CF18912708002FC838 /* HelloPolyTests.m */,
+				AABE13CA18912708002FC838 /* Supporting Files */,
 			);
 			path = HelloPolyTests;
 			sourceTree = "<group>";
 		};
-		AAB908BF188312D600E6FE0E /* Supporting Files */ = {
+		AABE13CA18912708002FC838 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAB908C0188312D600E6FE0E /* HelloPolyTests-Info.plist */,
-				AAB908C1188312D600E6FE0E /* InfoPlist.strings */,
+				AABE13CB18912708002FC838 /* HelloPolyTests-Info.plist */,
+				AABE13CC18912708002FC838 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AABE13DC189579D9002FC838 /* HelloPolyMVC */ = {
+			isa = PBXGroup;
+			children = (
+				AABE13B918912708002FC838 /* HelloPolyViewController.h */,
+				AABE13BA18912708002FC838 /* HelloPolyViewController.m */,
+				AA597E4F1896866500914451 /* PolygonShape.h */,
+				AA597E501896866500914451 /* PolygonShape.m */,
+				AAC522F41897F27000277152 /* PolygonView.h */,
+				AAC522F51897F27000277152 /* PolygonView.m */,
+			);
+			name = HelloPolyMVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAB90892188312D500E6FE0E /* HelloPoly */ = {
+		AABE13A018912708002FC838 /* HelloPoly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAB908C8188312D600E6FE0E /* Build configuration list for PBXNativeTarget "HelloPoly" */;
+			buildConfigurationList = AABE13D318912708002FC838 /* Build configuration list for PBXNativeTarget "HelloPoly" */;
 			buildPhases = (
-				AAB9088F188312D500E6FE0E /* Sources */,
-				AAB90890188312D500E6FE0E /* Frameworks */,
-				AAB90891188312D500E6FE0E /* Resources */,
+				AABE139D18912708002FC838 /* Sources */,
+				AABE139E18912708002FC838 /* Frameworks */,
+				AABE139F18912708002FC838 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -172,43 +187,43 @@
 			);
 			name = HelloPoly;
 			productName = HelloPoly;
-			productReference = AAB90893188312D500E6FE0E /* HelloPoly.app */;
+			productReference = AABE13A118912708002FC838 /* HelloPoly.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AAB908B6188312D500E6FE0E /* HelloPolyTests */ = {
+		AABE13C118912708002FC838 /* HelloPolyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAB908CB188312D600E6FE0E /* Build configuration list for PBXNativeTarget "HelloPolyTests" */;
+			buildConfigurationList = AABE13D618912708002FC838 /* Build configuration list for PBXNativeTarget "HelloPolyTests" */;
 			buildPhases = (
-				AAB908B3188312D500E6FE0E /* Sources */,
-				AAB908B4188312D500E6FE0E /* Frameworks */,
-				AAB908B5188312D500E6FE0E /* Resources */,
+				AABE13BE18912708002FC838 /* Sources */,
+				AABE13BF18912708002FC838 /* Frameworks */,
+				AABE13C018912708002FC838 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AAB908BD188312D500E6FE0E /* PBXTargetDependency */,
+				AABE13C818912708002FC838 /* PBXTargetDependency */,
 			);
 			name = HelloPolyTests;
 			productName = HelloPolyTests;
-			productReference = AAB908B7188312D500E6FE0E /* HelloPolyTests.xctest */;
+			productReference = AABE13C218912708002FC838 /* HelloPolyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AAB9088B188312D500E6FE0E /* Project object */ = {
+		AABE139918912708002FC838 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HelloPoly;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = COMP41550;
 				TargetAttributes = {
-					AAB908B6188312D500E6FE0E = {
-						TestTargetID = AAB90892188312D500E6FE0E;
+					AABE13C118912708002FC838 = {
+						TestTargetID = AABE13A018912708002FC838;
 					};
 				};
 			};
-			buildConfigurationList = AAB9088E188312D500E6FE0E /* Build configuration list for PBXProject "HelloPoly" */;
+			buildConfigurationList = AABE139C18912708002FC838 /* Build configuration list for PBXProject "HelloPoly" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,97 +231,90 @@
 				en,
 				Base,
 			);
-			mainGroup = AAB9088A188312D500E6FE0E;
-			productRefGroup = AAB90894188312D500E6FE0E /* Products */;
+			mainGroup = AABE139818912708002FC838;
+			productRefGroup = AABE13A218912708002FC838 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAB90892188312D500E6FE0E /* HelloPoly */,
-				AAB908B6188312D500E6FE0E /* HelloPolyTests */,
+				AABE13A018912708002FC838 /* HelloPoly */,
+				AABE13C118912708002FC838 /* HelloPolyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AAB90891188312D500E6FE0E /* Resources */ = {
+		AABE139F18912708002FC838 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB908AD188312D500E6FE0E /* Main_iPad.storyboard in Resources */,
-				AAB908B2188312D500E6FE0E /* Images.xcassets in Resources */,
-				AAB908AA188312D500E6FE0E /* Main_iPhone.storyboard in Resources */,
-				AAB908A1188312D500E6FE0E /* InfoPlist.strings in Resources */,
+				AABE13BD18912708002FC838 /* Images.xcassets in Resources */,
+				AABE13AF18912708002FC838 /* InfoPlist.strings in Resources */,
+				AABE13B818912708002FC838 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAB908B5188312D500E6FE0E /* Resources */ = {
+		AABE13C018912708002FC838 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB908C3188312D600E6FE0E /* InfoPlist.strings in Resources */,
+				AABE13CE18912708002FC838 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AAB9088F188312D500E6FE0E /* Sources */ = {
+		AABE139D18912708002FC838 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB908A3188312D500E6FE0E /* main.m in Sources */,
-				AAB908B0188312D500E6FE0E /* HelloPolyViewController.m in Sources */,
-				AAB908A7188312D500E6FE0E /* HelloPolyAppDelegate.m in Sources */,
+				AAC522F61897F27000277152 /* PolygonView.m in Sources */,
+				AA597E511896866500914451 /* PolygonShape.m in Sources */,
+				AABE13B118912708002FC838 /* main.m in Sources */,
+				AABE13BB18912708002FC838 /* HelloPolyViewController.m in Sources */,
+				AABE13B518912708002FC838 /* HelloPolyAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAB908B3188312D500E6FE0E /* Sources */ = {
+		AABE13BE18912708002FC838 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB908C5188312D600E6FE0E /* HelloPolyTests.m in Sources */,
+				AABE13D018912708002FC838 /* HelloPolyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AAB908BD188312D500E6FE0E /* PBXTargetDependency */ = {
+		AABE13C818912708002FC838 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAB90892188312D500E6FE0E /* HelloPoly */;
-			targetProxy = AAB908BC188312D500E6FE0E /* PBXContainerItemProxy */;
+			target = AABE13A018912708002FC838 /* HelloPoly */;
+			targetProxy = AABE13C718912708002FC838 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AAB9089F188312D500E6FE0E /* InfoPlist.strings */ = {
+		AABE13AD18912708002FC838 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AAB908A0188312D500E6FE0E /* en */,
+				AABE13AE18912708002FC838 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		AAB908A8188312D500E6FE0E /* Main_iPhone.storyboard */ = {
+		AABE13B618912708002FC838 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AAB908A9188312D500E6FE0E /* Base */,
+				AABE13B718912708002FC838 /* Base */,
 			);
-			name = Main_iPhone.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AAB908AB188312D500E6FE0E /* Main_iPad.storyboard */ = {
+		AABE13CC18912708002FC838 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AAB908AC188312D500E6FE0E /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		AAB908C1188312D600E6FE0E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AAB908C2188312D600E6FE0E /* en */,
+				AABE13CD18912708002FC838 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -314,7 +322,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AAB908C6188312D600E6FE0E /* Debug */ = {
+		AABE13D118912708002FC838 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,11 +358,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AAB908C7188312D600E6FE0E /* Release */ = {
+		AABE13D218912708002FC838 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,12 +390,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AAB908C9188312D600E6FE0E /* Debug */ = {
+		AABE13D418912708002FC838 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -401,7 +407,7 @@
 			};
 			name = Debug;
 		};
-		AAB908CA188312D600E6FE0E /* Release */ = {
+		AABE13D518912708002FC838 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -414,7 +420,7 @@
 			};
 			name = Release;
 		};
-		AAB908CC188312D600E6FE0E /* Debug */ = {
+		AABE13D718912708002FC838 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -437,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		AAB908CD188312D600E6FE0E /* Release */ = {
+		AABE13D818912708002FC838 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -459,32 +465,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAB9088E188312D500E6FE0E /* Build configuration list for PBXProject "HelloPoly" */ = {
+		AABE139C18912708002FC838 /* Build configuration list for PBXProject "HelloPoly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAB908C6188312D600E6FE0E /* Debug */,
-				AAB908C7188312D600E6FE0E /* Release */,
+				AABE13D118912708002FC838 /* Debug */,
+				AABE13D218912708002FC838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAB908C8188312D600E6FE0E /* Build configuration list for PBXNativeTarget "HelloPoly" */ = {
+		AABE13D318912708002FC838 /* Build configuration list for PBXNativeTarget "HelloPoly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAB908C9188312D600E6FE0E /* Debug */,
-				AAB908CA188312D600E6FE0E /* Release */,
+				AABE13D418912708002FC838 /* Debug */,
+				AABE13D518912708002FC838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		AAB908CB188312D600E6FE0E /* Build configuration list for PBXNativeTarget "HelloPolyTests" */ = {
+		AABE13D618912708002FC838 /* Build configuration list for PBXNativeTarget "HelloPolyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAB908CC188312D600E6FE0E /* Debug */,
-				AAB908CD188312D600E6FE0E /* Release */,
+				AABE13D718912708002FC838 /* Debug */,
+				AABE13D818912708002FC838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AAB9088B188312D500E6FE0E /* Project object */;
+	rootObject = AABE139918912708002FC838 /* Project object */;
 }

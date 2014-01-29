@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AAB90892188312D500E6FE0E"
+               BlueprintIdentifier = "AABE13A018912708002FC838"
                BuildableName = "HelloPoly.app"
                BlueprintName = "HelloPoly"
                ReferencedContainer = "container:HelloPoly.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AAB908B6188312D500E6FE0E"
+               BlueprintIdentifier = "AABE13C118912708002FC838"
                BuildableName = "HelloPolyTests.xctest"
                BlueprintName = "HelloPolyTests"
                ReferencedContainer = "container:HelloPoly.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAB90892188312D500E6FE0E"
+            BlueprintIdentifier = "AABE13A018912708002FC838"
             BuildableName = "HelloPoly.app"
             BlueprintName = "HelloPoly"
             ReferencedContainer = "container:HelloPoly.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAB90892188312D500E6FE0E"
+            BlueprintIdentifier = "AABE13A018912708002FC838"
             BuildableName = "HelloPoly.app"
             BlueprintName = "HelloPoly"
             ReferencedContainer = "container:HelloPoly.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAB90892188312D500E6FE0E"
+            BlueprintIdentifier = "AABE13A018912708002FC838"
             BuildableName = "HelloPoly.app"
             BlueprintName = "HelloPoly"
             ReferencedContainer = "container:HelloPoly.xcodeproj">
