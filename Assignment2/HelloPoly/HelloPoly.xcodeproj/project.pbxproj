@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA597E511896866500914451 /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = AA597E501896866500914451 /* PolygonShape.m */; };
 		AABE13A518912708002FC838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE13A418912708002FC838 /* Foundation.framework */; };
 		AABE13A718912708002FC838 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE13A618912708002FC838 /* CoreGraphics.framework */; };
 		AABE13A918912708002FC838 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE13A818912708002FC838 /* UIKit.framework */; };
@@ -23,6 +22,7 @@
 		AABE13CE18912708002FC838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AABE13CC18912708002FC838 /* InfoPlist.strings */; };
 		AABE13D018912708002FC838 /* HelloPolyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE13CF18912708002FC838 /* HelloPolyTests.m */; };
 		AAC522F61897F27000277152 /* PolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC522F51897F27000277152 /* PolygonView.m */; };
+		AADFF23918DA53D400630789 /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = AADFF23818DA53D400630789 /* PolygonShape.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA597E4F1896866500914451 /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolygonShape.h; path = "../../../../COMP41550/homework/assignment2/PolygonShape 2/PolygonShape.h"; sourceTree = "<group>"; };
-		AA597E501896866500914451 /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PolygonShape.m; path = "../../../../COMP41550/homework/assignment2/PolygonShape 2/PolygonShape.m"; sourceTree = "<group>"; };
 		AABE13A118912708002FC838 /* HelloPoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPoly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABE13A418912708002FC838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AABE13A618912708002FC838 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,6 +57,8 @@
 		AABE13CF18912708002FC838 /* HelloPolyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPolyTests.m; sourceTree = "<group>"; };
 		AAC522F41897F27000277152 /* PolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonView.h; sourceTree = "<group>"; };
 		AAC522F51897F27000277152 /* PolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonView.m; sourceTree = "<group>"; };
+		AADFF23718DA53C900630789 /* PolygonShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolygonShape.h; sourceTree = "<group>"; };
+		AADFF23818DA53D400630789 /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonShape.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,10 +160,10 @@
 		AABE13DC189579D9002FC838 /* HelloPolyMVC */ = {
 			isa = PBXGroup;
 			children = (
+				AADFF23818DA53D400630789 /* PolygonShape.m */,
+				AADFF23718DA53C900630789 /* PolygonShape.h */,
 				AABE13B918912708002FC838 /* HelloPolyViewController.h */,
 				AABE13BA18912708002FC838 /* HelloPolyViewController.m */,
-				AA597E4F1896866500914451 /* PolygonShape.h */,
-				AA597E501896866500914451 /* PolygonShape.m */,
 				AAC522F41897F27000277152 /* PolygonView.h */,
 				AAC522F51897F27000277152 /* PolygonView.m */,
 			);
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC522F61897F27000277152 /* PolygonView.m in Sources */,
-				AA597E511896866500914451 /* PolygonShape.m in Sources */,
+				AADFF23918DA53D400630789 /* PolygonShape.m in Sources */,
 				AABE13B118912708002FC838 /* main.m in Sources */,
 				AABE13BB18912708002FC838 /* HelloPolyViewController.m in Sources */,
 				AABE13B518912708002FC838 /* HelloPolyAppDelegate.m in Sources */,
