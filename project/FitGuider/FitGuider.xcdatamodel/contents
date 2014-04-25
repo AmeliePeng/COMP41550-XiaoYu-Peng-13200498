@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Dish" representedClassName="Dish" syncable="YES">
+        <attribute name="create_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dish_describe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dish_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dish_tittle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dish_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="process" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="visit_time" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="visit_times" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="haveimage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Image" inverseName="belongtodish" inverseEntity="Image" syncable="YES"/>
+        <relationship name="havematerial" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Material" inverseName="belongtodish" inverseEntity="Material" syncable="YES"/>
+    </entity>
+    <entity name="Image" representedClassName="Image" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="image_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongtodish" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dish" inverseName="haveimage" inverseEntity="Dish" syncable="YES"/>
+        <relationship name="belongtomateril" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Material" inverseName="haveimage" inverseEntity="Material" syncable="YES"/>
+    </entity>
+    <entity name="Material" representedClassName="Material" syncable="YES">
+        <attribute name="create_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="describe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dish_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="image_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isfinish" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="material_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="belongtodish" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dish" inverseName="havematerial" inverseEntity="Dish" syncable="YES"/>
+        <relationship name="haveimage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Image" inverseName="belongtomateril" inverseEntity="Image" syncable="YES"/>
+    </entity>
+    <entity name="UserProfile" representedClassName="UserProfile" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="create_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="job" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="UserWeight" representedClassName="UserWeight" syncable="YES">
+        <attribute name="create_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="userweight_user" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserProfile" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dish" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="Image" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Material" positionX="0" positionY="0" width="128" height="255"/>
+        <element name="UserProfile" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="UserWeight" positionX="0" positionY="0" width="128" height="150"/>
+    </elements>
+</model>
